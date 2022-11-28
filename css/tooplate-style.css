@@ -600,11 +600,6 @@ b, strong {
   transform: translateY(100%);
   transition: .2s ease-in-out;
 }
-
-.card:hover .card__overlay {
-  transform: translateY(0);
-}
-
 .card__header {
   position: relative;
   display: flex;
@@ -612,7 +607,6 @@ b, strong {
   gap: 2em;
   padding: 1em 2em;
   opacity: 0.30;
-  /* border-radius: calc(var(--curve) * 0.5px) 0 0 0; */
   border-radius: calc(var(--curve) * 0.5px) 0;
   background-color: var(--surface-color);
   transform: translateY(-100%);
@@ -643,7 +637,7 @@ b, strong {
 .card__title {
   font-size: 1em;
   margin: 0 0 .3em;
-  color: #6A515E;
+  /* color: #6A515E; */
 }
 
 .card__tagline {
@@ -662,7 +656,7 @@ b, strong {
 .card__description {
   padding: 0 2em 2em;
   margin: 0;
-  color: #D7BDCA;
+  /* color: #D7BDCA; */
   font-family: "MockFlowFont";
   display: -webkit-box;
   -webkit-box-orient: vertical;
